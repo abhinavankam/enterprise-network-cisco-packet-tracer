@@ -40,12 +40,12 @@ Router subinterface for VLAN 20 was either not configured or administratively sh
 5. Verified subinterface is active
 
 ## Validation
-#PC1> ping 192.168.20.1
+PC1> ping 192.168.20.1
 
 #Reply from 192.168.20.1: bytes=32 time<1ms TTL=255
 
-#PC1> ping 192.168.10.1
+PC1> ping 192.168.10.1
 
 #Reply from 192.168.10.1: bytes=32 time=1ms TTL=254
 
-✅ Gateway is now reachable and inter-VLAN routing is working.
+//Gateway is now reachable and inter-VLAN routing is working//
