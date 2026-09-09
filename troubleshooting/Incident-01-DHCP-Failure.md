@@ -18,7 +18,6 @@ PC in the network is unable to obtain an IP address via DHCP.
 
 ## Commands Used
 #show vlan brief
-show interfaces status
 #show interfaces status
 #show ip dhcp binding
 #show ip dhcp pool
@@ -35,10 +34,10 @@ PC switch port was assigned to the wrong VLAN. The DHCP server was not reachable
 4. Verified connectivity to gateway
 
 ## Validation
-PC> ipconfig
+#PC> ipconfig
 
-IP Address: 192.168.1.101
-Subnet Mask: 255.255.255.0
+#IP Address: 192.168.1.101
+#Subnet Mask: 255.255.255.0
 #Default Gateway: 192.168.1.1
 #DHCP Server: 192.168.1.1
 
