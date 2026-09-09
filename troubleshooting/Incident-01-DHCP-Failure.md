@@ -39,7 +39,7 @@ PC switch port was assigned to the wrong VLAN. The DHCP server was not reachable
 4. Verified connectivity to gateway
 
 ## Validation
-#PC> ipconfig
+PC> ipconfig
 
 #IP Address: 192.168.1.101
 
@@ -49,8 +49,8 @@ PC switch port was assigned to the wrong VLAN. The DHCP server was not reachable
 
 #DHCP Server: 192.168.1.1
 
-#PC> ping 192.168.1.1
+PC> ping 192.168.1.1
 
 #Reply from 192.168.1.1: bytes=32 time<1ms TTL=255
 
-✅ PC successfully obtained DHCP address and can ping the gateway.
+//PC successfully obtained DHCP address and can ping the gateway//
