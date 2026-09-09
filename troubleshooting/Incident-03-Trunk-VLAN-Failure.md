@@ -56,4 +56,4 @@ PC1> ping 192.168.20.10
 
 #Reply from 192.168.20.10: bytes=32 time=2ms TTL=255
 
-✅ Trunk is now operational and all VLANs are passing traffic.
+//Trunk is now operational and all VLANs are passing traffic//
