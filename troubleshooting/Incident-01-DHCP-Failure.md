@@ -42,11 +42,15 @@ PC switch port was assigned to the wrong VLAN. The DHCP server was not reachable
 #PC> ipconfig
 
 #IP Address: 192.168.1.101
+
 #Subnet Mask: 255.255.255.0
+
 #Default Gateway: 192.168.1.1
+
 #DHCP Server: 192.168.1.1
 
 #PC> ping 192.168.1.1
+
 #Reply from 192.168.1.1: bytes=32 time<1ms TTL=255
 
 ✅ PC successfully obtained DHCP address and can ping the gateway.
