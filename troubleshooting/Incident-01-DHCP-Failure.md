@@ -18,12 +18,12 @@ PC in the network is unable to obtain an IP address via DHCP.
 
 ## Commands Used
 #show vlan brief
+show interfaces status
 #show interfaces status
 #show ip dhcp binding
 #show ip dhcp pool
 #show running-config | include dhcp
 #debug ip dhcp server events
-
 
 ## Root Cause
 PC switch port was assigned to the wrong VLAN. The DHCP server was not reachable on that VLAN, causing the PC to fail to obtain an IP address.
