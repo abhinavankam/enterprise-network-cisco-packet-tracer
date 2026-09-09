@@ -17,13 +17,17 @@ Devices in VLAN 20 cannot communicate with devices in VLAN 10 or reach their gat
 5. Verified interface status on router
 
 ## Commands Used
-show vlan brief
-show interfaces trunk
-show ip interface brief
-show ip route
-show running-config interface gig0/0.20
-show interfaces gig0/0.20
+#show vlan brief
 
+#show interfaces trunk
+
+#show ip interface brief
+
+#show ip route
+
+#show running-config interface gig0/0.20
+
+#show interfaces gig0/0.20
 
 ## Root Cause
 Router subinterface for VLAN 20 was either not configured or administratively shut down. The gateway IP was not active, preventing VLAN 20 devices from routing to other networks.
@@ -36,10 +40,12 @@ Router subinterface for VLAN 20 was either not configured or administratively sh
 5. Verified subinterface is active
 
 ## Validation
-PC1> ping 192.168.20.1
-Reply from 192.168.20.1: bytes=32 time<1ms TTL=255
+#PC1> ping 192.168.20.1
 
-PC1> ping 192.168.10.1
-Reply from 192.168.10.1: bytes=32 time=1ms TTL=254
+#Reply from 192.168.20.1: bytes=32 time<1ms TTL=255
+
+#PC1> ping 192.168.10.1
+
+#Reply from 192.168.10.1: bytes=32 time=1ms TTL=254
 
 ✅ Gateway is now reachable and inter-VLAN routing is working.
