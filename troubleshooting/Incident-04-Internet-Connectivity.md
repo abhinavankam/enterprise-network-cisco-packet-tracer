@@ -63,4 +63,4 @@ PC> ping 192.168.50.10
 
 #Reply from 192.168.50.10: bytes=32 time=1ms TTL=127
 
-✅ Internet connectivity is restored. NAT translations are working.
+//Internet connectivity is restored. NAT translations are working//
